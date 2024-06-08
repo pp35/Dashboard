@@ -11,8 +11,8 @@ function FDMaturityTimeline() {
   const yearColors = ['bg-red-100', 'bg-green-100', 'bg-blue-100'];
 
   return (
-    <div className=" border shadow-md  p-10  lg:w-4/5">
-      <h3 className="font-bold">FD Maturity Timeline</h3>
+    <div className=" border shadow-md   rounded-md p-2 lg:h-[21rem] lg:w-[50rem]">
+      <h3 className="font-bold text-lg ">FD Maturity Timeline</h3>
       <div className="">
         <div className="flex">
           {['2024', '2025', '2026'].map((year) => (
@@ -25,7 +25,7 @@ function FDMaturityTimeline() {
           {['2024', '2025', '2026'].map((year, yearIndex) => (
             <React.Fragment key={year}>
               {['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'].map((month, index) => (
-                <div key={index} className={`w-8 text-center ${yearColors[yearIndex]}`}>
+                <div key={index} className={` lg:w-8 sm:w-3  text-center ${yearColors[yearIndex]}`}>
                   {month}
                 </div>
               ))}

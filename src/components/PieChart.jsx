@@ -53,9 +53,9 @@ function PieChart() {
   };
 
   return (
-    <div className='border shadow-md flex flex-col justify-center items-center w-80 p-2 rounded-lg'>
-      <div className='w-full'>
-        <div className='flex justify-between items-center'>
+    <div className='border shadow-md  flex flex-col justify-center items-center md:w-[43rem] lg:w-96  p-2 rounded-lg'>
+      <div className=''>
+        <div className='flex  justify-between items-center'>
           <h3 className='font-bold text-lg'>Your FD Portfolio</h3>
           <button className='flex items-center bg-white text-gray-800 border border-gray-300 rounded-md px-3 py-1 shadow-sm'>
             Deposit Amt <ArrowDropDown />

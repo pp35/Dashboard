@@ -11,16 +11,20 @@ function App() {
       <Navbar />
       <div className="container mx-auto px-9 border  shadow-md">
         <h1 className="justify-between items-center font-bold text-2xl p-2">Welcome, Johan Paul</h1>
-        <div className="flex gap-2">
-          <PieChart />
-          <FDMaturityTimeline />
-        </div>
-        <div className="flex gap-3 p-2">
+        <div className="lg:flex grid grid-cols-1 gap-3  ">
           <div>
+          <PieChart />
+          </div>
+          <div className="">
+          <FDMaturityTimeline  />
+          </div>
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-3  gap-3 p-2">
+          <div className="col-span-2">
             <Cards />
             <h1 className="font-bold text-2xl p-1">Get Answer</h1>
             <h3 className="font-bold">to all your questions</h3>
-            <div className="flex gap-3">
+            <div className="grid grid-cols-1 gap-2 lg:grid-cols-3 ">
               <Card1 />
               <Card1 />
               <Card1 />

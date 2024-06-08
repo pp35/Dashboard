@@ -44,7 +44,7 @@ const SideCards = () => {
   };
 
   return (
-    <div className="grid grid-cols-1 gap-4">
+    <div className="grid w-96 grid-cols-1 gap-4">
       {actions.map((action, index) => (
         <div key={index} className="bg-white p-4 rounded-lg shadow-md">
           <h4 className="text-lg font-semibold">{action.type}</h4>

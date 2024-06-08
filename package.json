@@ -14,7 +14,7 @@
     "@emotion/styled": "^11.11.5",
     "@mui/icons-material": "^5.15.19",
     "@mui/material": "^5.15.19",
-    "chart.js": "^2.9.4",
+    "chart.js": "^4.4.3",
     "chartjs-adapter-date-fns": "^3.0.0",
     "chartjs-chart-timeline": "^0.4.0",
     "chartjs-plugin-datalabels": "^2.2.0",
